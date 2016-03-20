@@ -9,7 +9,7 @@ $this->title = 'Centro de Ayuda Legal';
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Centro de Ayuda Legal</h1>
+        <h1 class="header center white-text text-lighten-2"><span class="z-depth-3">Centro de Ayuda Legal</span></h1>
         <div class="row center">
           <h5 class="header col s12 light">¡Llama al ejército fuerte y déjanos pelear por ti!</h5>
         </div>
@@ -20,7 +20,7 @@ $this->title = 'Centro de Ayuda Legal';
 
       </div>
     </div>
-    <div class="parallax"><img src="parallax/background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="parallax/escritorio_1.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
 
@@ -69,7 +69,7 @@ $this->title = 'Centro de Ayuda Legal';
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="parallax/background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="parallax/escritorio_2.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
   <div class="container">
@@ -95,6 +95,6 @@ $this->title = 'Centro de Ayuda Legal';
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="parallax/background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="parallax/escritorio_3.jpg" alt="Unsplashed background img 3"></div>
   </div>
 </div>

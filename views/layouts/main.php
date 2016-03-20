@@ -28,7 +28,7 @@ AppAsset::register($this);
 <header>
     <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <img class="brand-logo" src="<?= Url::to('@web/img/CAL.jpg') ?>" />
+      <img class="brand-logo" src="<?= Url::to('@web/img/cal.png') ?>" />
       <ul class="right hide-on-med-and-down">
         <li><a href="<?= Yii::$app->homeUrl ?>">INICIO</a></li>
         <li><a href="<?= Url::to('index.php?r=site/about')?>">¿QUIÉNES SOMOS?</a></li>
