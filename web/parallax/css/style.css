@@ -8,7 +8,7 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #00897b;
+  color: white;
 }
 
 p {
@@ -54,4 +54,8 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.breadcrumb-padding{
+  margin-left: 1rem;
 }

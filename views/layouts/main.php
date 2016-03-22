@@ -26,9 +26,10 @@ AppAsset::register($this);
 <?php $this->beginBody() ?>
 
 <header>
-    <nav class="white" role="navigation">
+    <nav class="teal" role="navigation">
     <div class="nav-wrapper container">
-      <img class="brand-logo" src="<?= Url::to('@web/img/cal.png') ?>" />
+      <!--<img class="brand-logo" src="<?= Url::to('@web/img/cal.png') ?>" />-->
+      <a id="logo-container" href="#" class="brand-logo"><span class="thin">CAL</span></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="<?= Yii::$app->homeUrl ?>">INICIO</a></li>
         <li><a href="<?= Url::to('index.php?r=site/about')?>">¿QUIÉNES SOMOS?</a></li>
@@ -50,16 +51,32 @@ AppAsset::register($this);
         ?>
       </ul>
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">INICIO</a></li>
+        <li><a href="<?= Yii::$app->homeUrl ?>">INICIO</a></li>
+        <li><a href="<?= Url::to('index.php?r=site/about')?>">¿QUIÉNES SOMOS?</a></li>
+        <li><a href="<?= Url::to('index.php?r=site/contact') ?>">CONTACTO</a></li>
+        <?= 
+            Yii::$app->user->isGuest ? (
+                '<li><a href='.Url::to("index.php?r=site/login").'>INICIAR SESIÓN</a></li>'
+            ) : (
+                '<li>'
+                . Html::beginForm(['/site/logout'], 'post')
+                . Html::submitButton(
+                    'SALIR (' . Yii::$app->user->identity->username . ')',
+                    ['class' => 'waves-effect waves-teal btn-flat']
+                )
+                . Html::endForm()
+                . '</li>'
+            )
+        ?>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 </header>
 
-    <main class="container">
+    <main class="">
         <?= Breadcrumbs::widget([
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+            //'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
         <?= $content ?>
     </main>

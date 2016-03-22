@@ -9,15 +9,14 @@ $this->title = 'Centro de Ayuda Legal';
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center white-text text-lighten-2"><span class="z-depth-3">Centro de Ayuda Legal</span></h1>
+        <h1 class="header white-text center col s12 bold"></h1>
+        <h1 class="header center col s12 thin"><span class="z-depth-3">Centro De Ayuda Legal</span></h1>
         <div class="row center">
           <h5 class="header col s12 light">¡Llama al ejército fuerte y déjanos pelear por ti!</h5>
         </div>
         <div class="row center">
           <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Envía tu caso para revisión</a>
         </div>
-        <br><br>
-
       </div>
     </div>
     <div class="parallax"><img src="parallax/escritorio_1.jpg" alt="Unsplashed background img 1"></div>
