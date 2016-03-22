@@ -4,7 +4,7 @@
 
 use yii\helpers\Html;
 
-$this->title = 'About';
+$this->title = '¿Quiénes Somos?';
 //$this->params['breadcrumbs'][] = $this->title;
 ?>
 <br>
@@ -15,7 +15,7 @@ $this->title = 'About';
         <a href="#!" class="breadcrumb teal-text text-lighten-1"><?= $this->title ?></a>
       </div>
     </div>
-  </nav>
+</nav>
   <br> <br>
 <div class="site-about container">
     <h1><?= Html::encode($this->title) ?></h1>

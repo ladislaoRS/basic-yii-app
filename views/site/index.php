@@ -2,6 +2,8 @@
 
 /* @var $this yii\web\View */
 use app\assets\AppAsset;
+use yii\helpers\Url;
+
 $this->title = 'Centro de Ayuda Legal';
 ?>
 <div class="site-index">
@@ -10,12 +12,12 @@ $this->title = 'Centro de Ayuda Legal';
       <div class="container">
         <br><br>
         <h1 class="header white-text center col s12 bold"></h1>
-        <h1 class="header center col s12 thin"><span class="z-depth-3">Centro De Ayuda Legal</span></h1>
+        <h1 class="header center col s12 thin"><span class="z-depth-5 title-index">Centro De Ayuda Legal</span></h1>
         <div class="row center">
-          <h5 class="header col s12 light">¡Llama al ejército fuerte y déjanos pelear por ti!</h5>
+          <h5 class="header col s12 bold">¡Busca la mejor asesoría con nosotros y déjanos pelear por ti!</h5>
         </div>
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Envía tu caso para revisión</a>
+          <a href="<?= Url::to('index.php?r=site/contact') ?>" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Envía tu caso para revisión</a>
         </div>
       </div>
     </div>

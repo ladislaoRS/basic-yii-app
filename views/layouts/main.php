@@ -29,7 +29,7 @@ AppAsset::register($this);
     <nav class="teal" role="navigation">
     <div class="nav-wrapper container">
       <!--<img class="brand-logo" src="<?= Url::to('@web/img/cal.png') ?>" />-->
-      <a id="logo-container" href="#" class="brand-logo"><span class="thin">CAL</span></a>
+      <a id="logo-container" href="<?= Yii::$app->homeUrl ?>" class="brand-logo"><span class="thin">CAL</span></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="<?= Yii::$app->homeUrl ?>">INICIO</a></li>
         <li><a href="<?= Url::to('index.php?r=site/about')?>">¿QUIÉNES SOMOS?</a></li>
@@ -91,16 +91,16 @@ AppAsset::register($this);
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
+          <h5 class="white-text">Publicaciones</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <!--<li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>-->
+            <li><a class="white-text" href="#!">Derecho Civil</a></li>
+            <li><a class="white-text" href="#!">Derecho Penal</a></li>
+            <li><a class="white-text" href="#!">Derecho Laboral</a></li>
+            <li><a class="white-text" href="#!">Derecho Mercantil</a></li>
           </ul>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
+          <h5 class="white-text">Síganos</h5>
           <ul>
             <li><a class="white-text" href="#!">Link 1</a></li>
             <!--<li><a class="white-text" href="#!">Link 2</a></li>
@@ -112,8 +112,8 @@ AppAsset::register($this);
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Creado por <a class="brown-text text-lighten-3" href="http://crea-intel.herokuapp.com">Crea-Intel</a>
-      </div>
+          <a class="grey-text text-lighten-4 right" href="#!">© 2016 centro-ayuda-legal.com - Todos los derechos eeservados</a>
+          Creado por <a class="brown-text text-lighten-3" href="http://crea-intel.herokuapp.com">Crea-Intel</a>
     </div>
   </footer>
 
