@@ -8,7 +8,7 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 
-$this->title = 'Contáctenos';
+$this->title = 'Contáctanos';
 //$this->params['breadcrumbs'][] = $this->title;
 ?>
 <br>
@@ -22,7 +22,7 @@ $this->title = 'Contáctenos';
 </nav>
   <br> <br>
 <div class="site-contact container">
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h1 class="teal-text light"><?= Html::encode($this->title) ?></h1>
 
     <?php if (Yii::$app->session->hasFlash('contactFormSubmitted')): ?>
 
@@ -43,10 +43,10 @@ $this->title = 'Contáctenos';
 
     <?php else: ?>
 
-        <p class="light">
+        <h5 class="teal-text thin">
             Envíenos su caso, nosotros nos encargaremos de notificarle donde se encuentre.
-        </p>
-
+        </h5>
+        <br><br>
         <div class="row">
             <div class="row">
                 <form class="col s12">
@@ -87,10 +87,14 @@ $this->title = 'Contáctenos';
          </div>
         </div>
     <!-- Map -->
-    <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.787346969278!2d-106.12359754987004!3d28.63618539058133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ea42d03f423869%3A0xcb16c557b335cfdf!2sAv.+de+la+Juventud+2200%2C+Haciendas+del+Valle+I+Etapa%2C+31217+Chihuahua%2C+Chih.!5e1!3m2!1sen!2smx!4v1458624661540" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        <br />
-    </section>
+    <div class"container">
+        <h5 class="teal-text">Ubicanos en:</h5><br><br>
+        <section id="contact" class="map">
+            <iframe width="50%" height="50%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.787346969278!2d-106.12359754987004!3d28.63618539058133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ea42d03f423869%3A0xcb16c557b335cfdf!2sAv.+de+la+Juventud+2200%2C+Haciendas+del+Valle+I+Etapa%2C+31217+Chihuahua%2C+Chih.!5e1!3m2!1sen!2smx!4v1458624661540" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <br />
+        </section>
+        <br><br>
+    </div>
 
     <?php endif; ?>
 </div>

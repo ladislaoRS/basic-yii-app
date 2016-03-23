@@ -86,12 +86,14 @@ AppAsset::register($this);
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Centro de Ayuda Legal</h5>
-          <p class="grey-text text-lighten-4">Somos un equipo de abogados profesionales que tomamos cada caso con seriedad y compromiso.</p>
+          <p class="grey-text text-lighten-4">Av. Periférico de la Juventud 1234<br>
+          Fraccionamiento C.P. 12345, Chihuahua<br>
+          +52 (656) 123-4567</p>
 
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Publicaciones</h5>
+          <h5 class="white-text">Servicios</h5>
           <ul>
             <li><a class="white-text" href="#!">Derecho Civil</a></li>
             <li><a class="white-text" href="#!">Derecho Penal</a></li>
@@ -100,19 +102,19 @@ AppAsset::register($this);
           </ul>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Síganos</h5>
+          <h5 class="white-text">Social</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <!--<li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>-->
+            <li><a class="white-text" href="#!">Twitter</a></li>
+            <li><a class="white-text" href="#!">Facebook</a></li>
+            <li><a class="white-text" href="#!">LinkedIn</a></li>
+            <!--<li><a class="white-text" href="#!">Link 4</a></li>-->
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-          <a class="grey-text text-lighten-4 right" href="#!">© 2016 centro-ayuda-legal.com - Todos los derechos eeservados</a>
+          <a class="grey-text text-lighten-4 right" href="#!">Copyright© 2016 centro-ayuda-legal.com - Todos los derechos reservados</a>
           Creado por <a class="brown-text text-lighten-3" href="http://crea-intel.herokuapp.com">Crea-Intel</a>
     </div>
   </footer>

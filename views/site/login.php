@@ -21,9 +21,9 @@ $this->title = 'Iniciar Sesión';
 </nav>
   <br> <br>
 <div class="site-login container">
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h1 class="teal-text light"><?= Html::encode($this->title) ?></h1>
 
-    <p class="light">Por favor ingrese los siguientes datos para iniciar su sesión</p>
+    <h5 class="teal-text thin">Por favor ingrese los siguientes datos para iniciar su sesión</h5>
 
      <div class="row">
         <form class="col s12">

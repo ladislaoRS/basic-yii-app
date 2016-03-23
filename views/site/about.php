@@ -18,10 +18,9 @@ $this->title = '¿Quiénes Somos?';
 </nav>
   <br> <br>
 <div class="site-about container">
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h1 class="teal-text light"><?= Html::encode($this->title) ?></h1>
 
     <p>
-        This is the About page. You may modify the following file to customize its content:
     </p>
 
    
