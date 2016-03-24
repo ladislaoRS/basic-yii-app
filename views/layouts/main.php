@@ -50,7 +50,7 @@ AppAsset::register($this);
             )
         ?>
       </ul>
-      <ul id="nav-mobile" class="side-nav">
+      <ul id="nav-mobile" class="side-nav teal">
         <li><a href="<?= Yii::$app->homeUrl ?>">INICIO</a></li>
         <li><a href="<?= Url::to('index.php?r=site/about')?>">¿QUIÉNES SOMOS?</a></li>
         <li><a href="<?= Url::to('index.php?r=site/contact') ?>">CONTACTO</a></li>

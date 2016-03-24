@@ -16,7 +16,7 @@ p {
 }
 
 .button-collapse {
-  color: #26a69a;
+  color: white;
 }
 
 .parallax-container {
@@ -61,4 +61,12 @@ footer.page-footer {
 }
 .title-index {
   font-size: 5.2rem;
+}
+
+.side-nav a {
+  color: white;
+}
+
+.side-nav li:hover, .side-nav li.active {
+    background-color: teal;
 }
