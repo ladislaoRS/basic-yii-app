@@ -70,3 +70,11 @@ footer.page-footer {
 .side-nav li:hover, .side-nav li.active {
     background-color: teal;
 }
+
+.html-copyright {
+  font-size: 85%;
+}
+
+.section.no-pad-top-cal {
+    padding-top: 80px;
+}

@@ -26,7 +26,7 @@ AppAsset::register($this);
 <?php $this->beginBody() ?>
 
 <header>
-    <nav class="teal" role="navigation">
+    <nav class="teal light" role="navigation">
     <div class="nav-wrapper container">
       <!--<img class="brand-logo" src="<?= Url::to('@web/img/cal.png') ?>" />-->
       <a id="logo-container" href="<?= Yii::$app->homeUrl ?>" class="brand-logo"><span class="thin">CAL</span></a>
@@ -81,19 +81,19 @@ AppAsset::register($this);
         <?= $content ?>
     </main>
 
-<footer class="page-footer teal">
+<footer class="page-footer teal thin">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Centro de Ayuda Legal</h5>
-          <p class="grey-text text-lighten-4">Av. Periférico de la Juventud 1234<br>
+          <h6 class="white-text">Centro de Ayuda Legal</h6>
+          <p class="grey-text text-lighten-4 html-copyright">Av. Periférico de la Juventud 1234<br>
           Fraccionamiento C.P. 12345, Chihuahua<br>
           +52 (656) 123-4567</p>
 
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Servicios</h5>
+          <h6 class="white-text">Servicios</h6>
           <ul>
             <li><a class="white-text" href="#!">Derecho Civil</a></li>
             <li><a class="white-text" href="#!">Derecho Penal</a></li>
@@ -102,7 +102,7 @@ AppAsset::register($this);
           </ul>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Social</h5>
+          <h6 class="white-text">Social</h6>
           <ul>
             <li><a class="white-text" href="#!">Twitter</a></li>
             <li><a class="white-text" href="#!">Facebook</a></li>
@@ -112,9 +112,9 @@ AppAsset::register($this);
         </div>
       </div>
     </div>
-    <div class="footer-copyright">
+    <div class="footer-copyright html-copyright">
       <div class="container">
-          <a class="grey-text text-lighten-4 right" href="#!">Copyright© 2016 centro-ayuda-legal.com - Todos los derechos reservados</a>
+          <a class="grey-text text-lighten-4 right" href="#!">Copyright © 2016 centro-ayuda-legal.com - Todos los derechos reservados</a>
           Creado por <a class="brown-text text-lighten-3" href="http://crea-intel.herokuapp.com">Crea-Intel</a>
     </div>
   </footer>
